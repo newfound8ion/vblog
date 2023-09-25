@@ -11,7 +11,6 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'What is Newcoin?',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
         Newcoin is a log of cryptographically signed credentials that are processed in parallel using a probabilistic 
@@ -21,7 +20,6 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Why do I need it?',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         Make your application natively Sybil-resistant and qualitative by leveraging the ocean of data points available 
@@ -31,7 +29,6 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'How does it work?',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         Contribute to the algorithm by deploying ActivationFunction contracts that contribute to the Proof-of-Creativity algorithm
