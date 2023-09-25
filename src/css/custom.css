@@ -12,6 +12,23 @@ a, a:hover, a:visited, a:active {
     text-decoration: none; /* Optional: Remove underlines from links */
 }
 
+* {
+    background: none !important;
+    background-color: white !important;
+    background-image: none !important;
+    color: black !important;
+    font-family: sans-serif !important;
+    font-size: 16px !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    * {
+        background-color: black !important;
+        color: white !important;
+    }
+}
+
+
 /* For any other specific components or elements, you'd need to set their colors explicitly to either #ffffff or #000000 */
 
 
