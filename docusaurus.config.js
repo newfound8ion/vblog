@@ -51,10 +51,10 @@ const config = {
   themeConfig: {
     image: 'https://uploads-ssl.webflow.com/636a3e03534428f9a8a469aa/641c37a4fce0f1c717da3692_nco-symbol-black.svg',
     navbar: {
-      title: 'My Site',
+      title: 'Newcoin Developer',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Newcoin',
+        src: 'https://uploads-ssl.webflow.com/636a3e03534428f9a8a469aa/641c37a4fce0f1c717da3692_nco-symbol-black.svg',
       },
       items: [
         {
