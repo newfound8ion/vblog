@@ -1,26 +1,36 @@
-/* Define global styles */
-body {
-    color: #000000; /* Set global text color to black */
-    background-color: #ffffff; /* Set global background color to white */
-    font-size: 12.5px; /* Universal font size */
-    line-height: 125%; /* Universal line height */
+/* Remove all background colors and images */
+* {
+    background: none !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    font-size: 12.5px !important; /* Set all text to 12.5px */
+    line-height: 125% !important; /* Set all line height to 125% */
+    font-weight: normal !important; /* Remove boldness */
+    color: #000000 !important; /* Set all text color to black */
 }
 
-/* Explicitly specify color for elements where needed */
+/* Remove hover colors and underline for links */
 a, a:hover, a:visited, a:active {
-    color: #000000; /* Ensuring link colors are also black */
-    text-decoration: none; /* Optional: Remove underlines from links */
+    color: #000000 !important; /* Ensuring link colors are also black */
+    text-decoration: none !important; /* Remove underlines from links */
 }
 
+/* Adjusting the logo size */
+.navbar__logo img {
+    width: 50% !important; /* Reduce the width to half */
+    height: auto !important; /* Maintain the aspect ratio */
+}
+
+/* Dark mode adjustments */
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: black;
-        color: white;
+    * {
+        color: white !important; /* Set all text color to white in dark mode */
     }
 
-    /* Assuming your SVG logo has a class of "logo-svg", adjust if different */
+    /* Adjusting the logo color in dark mode */
     .navbar__logo img {
-        fill: white; /* Change SVG fill color to white in dark mode */
+        filter: invert(1); /* Invert the colors of the logo */
+        
     }
 }
 
