@@ -19,9 +19,6 @@ At the foundation of Newcoin lies a series of cryptographically signed statement
 ### **Probabilistic State Machine**
 Newcoin's consensus mechanism, the probabilistic state machine, processes these signed statements in parallel. This asynchronous, decentralized algorithm ensures an 'eventually consistent' shared state across nodes, even amidst disparate data states.
 
-### **PowerUP Data**
-The PowerUP object, an abstraction layer, encodes the weighted sentiment of creators. These data primitives aggregate to form a comprehensive representation of a creator's social and creative capital, synthesizing multiple metrics, data sources, and schemas into a standardized format.
-
 ### **Meta-Algorithm: Proof-of-Creativity**
 Central to Newcoin's proposition is the Proof-of-Creativity algorithm. This meta-algorithm ingests aggregated data objects, applying a complex weighting mechanism, democratically determined by network participants. Through logarithmic scaling and normalization techniques, it outputs a definitive score: the WATT.
 
