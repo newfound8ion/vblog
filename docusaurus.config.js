@@ -49,12 +49,14 @@ const config = {
   ],
 
   themeConfig: {
-    image: 'https://uploads-ssl.webflow.com/636a3e03534428f9a8a469aa/641c37a4fce0f1c717da3692_nco-symbol-black.svg',
+    image: 'https://raw.githubusercontent.com/newfound8ion/developer/main/static/img/641c37a4fce0f1c717da3692_nco-symbol-black.svg
+',
     navbar: {
       title: 'Newcoin Developer',
       logo: {
         alt: 'Newcoin',
-        src: 'https://uploads-ssl.webflow.com/636a3e03534428f9a8a469aa/641c37a4fce0f1c717da3692_nco-symbol-black.svg',
+        src: 'https://raw.githubusercontent.com/newfound8ion/developer/main/static/img/641c37a4fce0f1c717da3692_nco-symbol-black.svg
+',
       },
       items: [
         {
