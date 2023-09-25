@@ -49,14 +49,12 @@ const config = {
   ],
 
   themeConfig: {
-    image: '/img/641c37a4fce0f1c717da3692_nco-symbol-black.svg
-',
+    image: '/img/641c37a4fce0f1c717da3692_nco-symbol-black.svg',
     navbar: {
       title: 'Newcoin Developer',
       logo: {
         alt: 'Newcoin',
-        src: '/img/641c37a4fce0f1c717da3692_nco-symbol-black.svg
-',
+        src: '/img/641c37a4fce0f1c717da3692_nco-symbol-black.svg',
       },
       items: [
         {
