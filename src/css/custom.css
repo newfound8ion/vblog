@@ -1,58 +1,13 @@
-/* Resetting all colors, borders, and backgrounds */
-* {
-    color: black !important;
-    background-color: white !important;
-    border-color: transparent !important;
-    font-weight: normal !important;
-    font-size: 17px !important;
-    text-decoration: none !important;
-}
-
-/* Removing hover effects */
-*:hover {
-    color: black !important;
-    background-color: white !important;
-    border-color: transparent !important;
-}
-
-/* Making sure links are also black */
-a {
-    color: black !important;
-}
-
-
-/* Adjusting the logo size and alignment */
-.navbar__logo img {
-    width: 70% !important; /* Increase the width a bit */
-    height: auto !important; /* Maintain the aspect ratio */
-    display: block !important; /* Make it a block element */
-    margin: 0 auto !important; /* Center the logo */
-}
-
-
-
-    /* Adjusting the logo color in dark mode */
-    .navbar__logo img {
-        filter: invert(1); /* Invert the colors of the logo */
-    }
-}
-
-
-
-
-/* For any other specific components or elements, you'd need to set their colors explicitly to either #ffffff or #000000 */
-
-
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
 
-/** You can override the default Infima variables here. 
+/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary: #000000;
+  --ifm-color-primary-dark: #ffffff;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
@@ -60,9 +15,18 @@ a {
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
-*/
-/** For readability concerns, you should choose a lighter palette in dark mode. 
+
+  /* Hugo's magic */
+  --ifm-navbar-height: 60px;
+  --ifm-global-shadow-lw: 0 0.25px 0.25px 0 #565656;
+  --ifm-font-family-base: "ABC Whyte";
+  --doc-sidebar-width: 224px !important; 
+  --ifm-link-decoration: black;
+  --ifm-footer-color: black  !important;
+  --ifm-footer-link-color: black;
+ }
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -73,4 +37,98 @@ a {
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-*/
+
+
+main .container {
+  margin-left: 1rem;
+}
+
+aside .menu {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #f5f7f9 !important;
+  color: black !important;
+}
+
+footer  a{
+  color: black !important;
+}
+footer .footer__title{
+  color: black !important;
+}
+
+  /* more Hugo's magic */
+.navbar--fixed-top {
+  padding: 0px;
+}
+
+.navbar__logo img {
+  height: 20px;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+.navbar__brand {
+  height:100%;
+  width: 224px;
+  box-shadow:  0.25px 0 0.25px 0 #565656;
+  position:absolute;
+  left:0px; 
+}
+
+.navbar__items {
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  box-shadow:  0.25px 0 0.25px 0 #565656;
+}
+
+.navbar__items--right {
+  width: 224px;
+  box-shadow: 0 0 0 0;
+}
+
+.menu__link {
+  padding-left: 12px;
+}
+
+.menu__caret:before {
+  background: var(--ifm-menu-link-sublist-icon) 50% / 1rem 1rem;
+}
+
+.markdown a {
+  text-decoration: underline;
+}
+
+.markdown > h2 {
+  --ifm-h2-font-size: 1.5rem;
+}
+
+.markdown > h3 {
+  --ifm-h3-font-size: 1.2rem;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: ABC Whyte;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),url(/font/abcwhyte-regular.woff) format("woff")
+}
+
+@font-face {
+  font-display: swap;
+  font-family: ABC Whyte;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),url(/font/abcwhyte-medium.woff) format("woff")
+}
+
+@font-face {
+  font-display: swap;
+  font-family: ABC Whyte;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),url(/font/abcwhyte-bold.woff) format("woff")
+}
