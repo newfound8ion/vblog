@@ -1,19 +1,25 @@
-/* Remove all background colors and images */
+/* Resetting all colors, borders, and backgrounds */
 * {
-    background: none !important;
-    background-color: #ffffff !important; /* Ensure background is always white */
-    background-image: none !important;
-    font-size: 12.5px !important; /* Set all text to 12.5px */
-    line-height: 125% !important; /* Set all line height to 125% */
-    font-weight: normal !important; /* Remove boldness */
-    color: #000000 !important; /* Set all text color to black */
+    color: black !important;
+    background-color: white !important;
+    border-color: transparent !important;
+    font-weight: normal !important;
+    font-size: 17px !important;
+    text-decoration: none !important;
 }
 
-/* Remove hover colors and underline for links */
-a, a:hover, a:visited, a:active {
-    color: #000000 !important; /* Ensuring link colors are also black */
-    text-decoration: none !important; /* Remove underlines from links */
+/* Removing hover effects */
+*:hover {
+    color: black !important;
+    background-color: white !important;
+    border-color: transparent !important;
 }
+
+/* Making sure links are also black */
+a {
+    color: black !important;
+}
+
 
 /* Adjusting the logo size and alignment */
 .navbar__logo img {
@@ -23,12 +29,7 @@ a, a:hover, a:visited, a:active {
     margin: 0 auto !important; /* Center the logo */
 }
 
-/* Dark mode adjustments */
-@media (prefers-color-scheme: dark) {
-    * {
-        color: white !important; /* Set all text color to white in dark mode */
-        background-color: #000000 !important; /* Ensure background is always black */
-    }
+
 
     /* Adjusting the logo color in dark mode */
     .navbar__logo img {
