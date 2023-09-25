@@ -8,12 +8,12 @@
 :root {
   --ifm-color-primary: #000000;
   --ifm-color-primary-dark: #ffffff;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
+  --ifm-color-primary-darker: #000000;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #000000;
+  --ifm-color-primary-lighter: #000000;
+  --ifm-color-primary-lightest: #000000;
+  --ifm-code-font-size: 17px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   /* Hugo's magic */
@@ -28,13 +28,13 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #000000;
+  --ifm-color-primary-dark: #000000;
+  --ifm-color-primary-darker: #000000;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #000000;
+  --ifm-color-primary-lighter: #000000;
+  --ifm-color-primary-lightest: #000000;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -48,7 +48,7 @@ aside .menu {
 }
 
 footer {
-  background-color: #f5f7f9 !important;
+  background-color: #ffffff !important;
   color: black !important;
 }
 
@@ -72,7 +72,7 @@ footer .footer__title{
 .navbar__brand {
   height:100%;
   width: 224px;
-  box-shadow:  0.25px 0 0.25px 0 #565656;
+  box-shadow:  0.25px 0 0.25px 0 #aaaaaa;
   position:absolute;
   left:0px; 
 }
@@ -81,7 +81,7 @@ footer .footer__title{
   align-items: center;
   justify-content: center;
   position:relative;
-  box-shadow:  0.25px 0 0.25px 0 #565656;
+  box-shadow:  0.25px 0 0.25px 0 #aaaaaa;
 }
 
 .navbar__items--right {
@@ -121,7 +121,7 @@ footer .footer__title{
   font-display: swap;
   font-family: ABC Whyte;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   src: local(""),url(/font/abcwhyte-medium.woff) format("woff")
 }
 
@@ -129,6 +129,6 @@ footer .footer__title{
   font-display: swap;
   font-family: ABC Whyte;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   src: local(""),url(/font/abcwhyte-bold.woff) format("woff")
 }
