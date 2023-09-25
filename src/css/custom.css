@@ -18,8 +18,8 @@
 
   /* Hugo's magic */
   --ifm-navbar-height: 60px;
-  --ifm-global-shadow-lw: 0 0.25px 0.25px 0 #565656;
-  --ifm-font-family-base: "ABC Whyte";
+  --ifm-global-shadow-lw: 0 0.25px 0.25px 0 #000000;
+  --ifm-font-family-base: "Newfoundation Whyte";
   --doc-sidebar-width: 224px !important; 
   --ifm-link-decoration: black;
   --ifm-footer-color: black  !important;
@@ -72,7 +72,7 @@ footer .footer__title{
 .navbar__brand {
   height:100%;
   width: 224px;
-  box-shadow:  0.25px 0 0.25px 0 #aaaaaa;
+  box-shadow:  0.25px 0 0.25px 0 #000000;
   position:absolute;
   left:0px; 
 }
@@ -81,7 +81,8 @@ footer .footer__title{
   align-items: center;
   justify-content: center;
   position:relative;
-  box-shadow:  0.25px 0 0.25px 0 #aaaaaa;
+  box-shadow:  0.25px 0 0.25px 0 #000000;
+  text-transform:uppercase;
 }
 
 .navbar__items--right {
@@ -102,11 +103,11 @@ footer .footer__title{
 }
 
 .markdown > h2 {
-  --ifm-h2-font-size: 1.5rem;
+  --ifm-h2-font-size: 1rem;
 }
 
 .markdown > h3 {
-  --ifm-h3-font-size: 1.2rem;
+  --ifm-h3-font-size: 1rem;
 }
 
 @font-face {
