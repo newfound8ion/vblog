@@ -1,7 +1,7 @@
 /* Remove all background colors and images */
 * {
     background: none !important;
-    background-color: transparent !important;
+    background-color: #ffffff !important; /* Ensure background is always white */
     background-image: none !important;
     font-size: 12.5px !important; /* Set all text to 12.5px */
     line-height: 125% !important; /* Set all line height to 125% */
@@ -15,24 +15,27 @@ a, a:hover, a:visited, a:active {
     text-decoration: none !important; /* Remove underlines from links */
 }
 
-/* Adjusting the logo size */
+/* Adjusting the logo size and alignment */
 .navbar__logo img {
-    width: 50% !important; /* Reduce the width to half */
+    width: 70% !important; /* Increase the width a bit */
     height: auto !important; /* Maintain the aspect ratio */
+    display: block !important; /* Make it a block element */
+    margin: 0 auto !important; /* Center the logo */
 }
 
 /* Dark mode adjustments */
 @media (prefers-color-scheme: dark) {
     * {
         color: white !important; /* Set all text color to white in dark mode */
+        background-color: #000000 !important; /* Ensure background is always black */
     }
 
     /* Adjusting the logo color in dark mode */
     .navbar__logo img {
         filter: invert(1); /* Invert the colors of the logo */
-        
     }
 }
+
 
 
 
