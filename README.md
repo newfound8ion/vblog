@@ -11,7 +11,7 @@ Newcoin is a log of cryptographically signed credentials that are processed in p
 Beyond its ability to coordinate networks through a robust weight abstraction hypernetwork, Newcoin allows users to navigate and accrue social capital across networks of various topologies: from social to neural to blockchain networks, users compound social capital and establish trusted connections, financial and utility benefits.
 
 
-## **Core Concepts**
+## **Newcoin Core Concepts**
 
 ### **Cryptographically-Signed Statements**
 At the foundation of Newcoin lies a series of cryptographically signed statements. These immutable attestations capture interactions, peer-reviews, and other forms of creative value assessments among participants, ensuring data integrity and non-repudiation.
