@@ -123,4 +123,13 @@ const config = {
   },
 };
 
-module.exports = config;
+module.exports = {
+  // ... other Docusaurus config properties ...
+
+  routes: {
+    path: '/',
+    to: '/docs/intro', // This is the path to your desired document
+  },
+
+  // ... other Docusaurus config properties ...
+};
