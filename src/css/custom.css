@@ -1,5 +1,5 @@
 /* Define global styles */
-* {
+body {
     color: #000000; /* Set global text color to black */
     background-color: #ffffff; /* Set global background color to white */
     font-size: 12.5px; /* Universal font size */
@@ -12,21 +12,18 @@ a, a:hover, a:visited, a:active {
     text-decoration: none; /* Optional: Remove underlines from links */
 }
 
-* {
-    background: none !important;
-    background-color: white !important;
-    background-image: none !important;
-    color: black !important;
-    font-family: sans-serif !important;
-    font-size: 16px !important;
-}
-
 @media (prefers-color-scheme: dark) {
-    * {
-        background-color: black !important;
-        color: white !important;
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    /* Assuming your SVG logo has a class of "logo-svg", adjust if different */
+    .navbar__logo img {
+        fill: white; /* Change SVG fill color to white in dark mode */
     }
 }
+
 
 
 /* For any other specific components or elements, you'd need to set their colors explicitly to either #ffffff or #000000 */
