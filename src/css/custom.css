@@ -13,9 +13,9 @@
   --ifm-color-primary-light: #000000;
   --ifm-color-primary-lighter: #000000;
   --ifm-color-primary-lightest: #000000;
-  --ifm-code-font-size: 17px;
+  --ifm-code-font-size: 26px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-font-size-base: 17px;
+  --ifm-font-size-base: 26px;
   --ifm-line-height-base: 125%;
 }
 
@@ -35,9 +35,15 @@ time, mark, audio, video {
   background-color: #ffffff;
   color: #000000;
   border-color: #000000;
-  font-size: 17px;
+  font-size: 26px;
   line-height: 125%;
+  font-weight:normal;
 }
+* {
+    font-size: 26px !important;
+    font-weight: normal !important;
+}
+
 
 a {
   color: #000000;
