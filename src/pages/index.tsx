@@ -22,6 +22,13 @@ function HomepageHeader() {
           </Link>
         </div>
                       <img src="/img/welcome.png" alt="Welcome to the cutting-edge, anon!" style={{marginTop: '44px'}} />
+                <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/intro">
+            Get Started With Newcoin
+          </Link>
+        </div>
 
       </div>
     </header>
@@ -38,7 +45,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-
+<img src="/img/hypernetwork.png" alt="Newcoin Hypernetwork" style={{marginTop: '44px'}} />
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -46,6 +53,8 @@ export default function Home(): JSX.Element {
             Get Started With Newcoin
           </Link>
         </div>
+                          
+
         
       </main>
     </Layout>
