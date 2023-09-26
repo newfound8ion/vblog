@@ -82,7 +82,6 @@ footer .footer__title{
   justify-content: center;
   position:relative;
   box-shadow:  0.25px 0 0.25px 0 #000000;
-  text-transform:uppercase;
 }
 
 .navbar__items--right {
