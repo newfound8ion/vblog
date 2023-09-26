@@ -42,7 +42,7 @@ export default function Home(): JSX.Element {
             className="button button--secondary button--lg"
             to="/docs/intro">
             Get Started With Newcoin
-          </Link>
+          </Link></div>
       </main>
     </Layout>
   );
