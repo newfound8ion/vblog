@@ -21,42 +21,38 @@ function HomepageHeader() {
             Get Started With Newcoin
           </Link>
         </div>
-                      <img src="/img/welcome.png" alt="Welcome to the cutting-edge, anon!" style={{marginTop: '44px'}} />
-                <div className={styles.buttons} style={{marginTop: '44px'}}>
+        <img src="/img/welcome.png" alt="Welcome to the cutting-edge, anon!" style={{marginTop: '44px'}} />
+        <div className={styles.buttons} style={{marginTop: '44px'}}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Get Started With Newcoin
+            to="https://github.com/newfound8ion/newcoin-evm">
+            Newcoin EVM Repository on GitHub <i className="fab fa-github"></i>
           </Link>
         </div>
-
       </div>
     </header>
   );
 }
-
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="Welcome to the cutting edge, anon! <head />">
+      description="Welcome to the cutting edge, anon!">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-<img 
-  src="/img/hypernetwork.png" 
-  alt="Newcoin Hypernetwork" 
-  style={{ 
-    display: 'block', 
-    marginLeft: 'auto', 
-    marginRight: 'auto', 
-    marginTop: '0', 
-  }} 
-/>
-
-        
+        <img 
+          src="/img/hypernetwork.png" 
+          alt="Newcoin Hypernetwork" 
+          style={{ 
+            display: 'block', 
+            marginLeft: 'auto', 
+            marginRight: 'auto', 
+            marginTop: '0', 
+          }} 
+        />
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -64,9 +60,6 @@ export default function Home(): JSX.Element {
             Get Started With Newcoin
           </Link>
         </div>
-                          
-
-        
       </main>
     </Layout>
   );
