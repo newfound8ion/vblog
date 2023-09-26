@@ -112,9 +112,14 @@ a:hover {
   background: url('/static/img/3854863592_d7778af733_o.jpg') no-repeat center top;
   background-size: cover;
 }
-/* Override hero background color to white */
+/* Ensure hero background color is set to white in root */
 :root {
   --ifm-hero-background-color: #ffffff;
+}
+
+/* Explicitly set the hero section background color to white */
+.hero {
+  background-color: #ffffff !important;
 }
 
 /* Footer customization */
