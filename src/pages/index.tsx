@@ -21,10 +21,13 @@ function HomepageHeader() {
             Newcoin Intro
           </Link>
         </div>
+        {/* Add the image below the button */}
+        <img src={useBaseUrl('img/welcome.png')} alt="Welcome to the cutting-edge, anon!" style={{marginTop: '26px'}} />
       </div>
     </header>
   );
 }
+
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
