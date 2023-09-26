@@ -1,10 +1,5 @@
 # Activation Function
 
----
-id: activation-functions
-title: Activation Functions
-sidebar_label: Activation Functions
----
 
 ## Introduction
 
