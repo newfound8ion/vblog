@@ -22,7 +22,7 @@ function HomepageHeader() {
           </Link>
         </div>
         {/* Add the image below the button */}
-        <img src={useBaseUrl('img/welcome.png')} alt="Welcome to the cutting-edge, anon!" style={{marginTop: '26px'}} />
+<img src="/img/welcome.png" alt="Welcome to the cutting-edge, anon!" style={{marginTop: '26px'}} />
       </div>
     </header>
   );
