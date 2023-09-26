@@ -117,7 +117,7 @@ a:hover {
   src: local(""), url(/font/NewfoundationWhyte-Regular.woff) format("woff");
 }
 /* Main div customization for background image */
-.plugin-id-default main {
+.home main {
   padding-top: 800px;
   background: url('/static/img/3854863592_d7778af733_o.jpg') no-repeat center top;
   background-size: cover;
