@@ -12,16 +12,12 @@ const config = {
 
   // Set the production url of your site here
   url: "https://developer.newcoin.org",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "newfound8ion", // Usually your GitHub org/user name.
-  projectName: "developer", // Usually your repo name.
+  organizationName: "newfound8ion",
+  projectName: "developer",
 
-  onBrokenLinks: "ignore", // Temporarily ignore broken links to allow build
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
 
   i18n: {
@@ -29,17 +25,24 @@ const config = {
     locales: ["en"],
   },
 
+  scripts: [
+    {
+      src: "https://kit.fontawesome.com/a076d05399.js",
+      crossorigin: "anonymous",
+    },
+  ],
+
   presets: [
     [
       "classic",
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/newfound8ion/developer/edit/master/", // Corrected editUrl
+          editUrl: "https://github.com/newfound8ion/developer/edit/master/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/newfound8ion/developer/edit/master/", // Corrected editUrl
+          editUrl: "https://github.com/newfound8ion/developer/edit/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -58,51 +61,8 @@ const config = {
       },
     },
     footer: {
-     style: "dark",
-      /* 
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "https://google.com", // Updated the link
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog/",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
-            },
-          ],
-        },
-      ],
-      */
-copyright: `Copyright © ${new Date().getFullYear()} Newcoin is an open-source project powered by Newfoundation.`,
+      style: "dark",
+      copyright: `Copyright © ${new Date().getFullYear()} Newcoin is an open-source project powered by Newfoundation.`,
     },
     prism: {
       theme: lightCodeTheme,
