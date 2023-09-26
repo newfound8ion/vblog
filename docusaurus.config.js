@@ -58,7 +58,7 @@ const config = {
       },
     },
     footer: {
-      style: "dark",
+     /* style: "dark",
       links: [
         {
           title: "Docs",
@@ -100,7 +100,8 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Newcoin is an open-source project powered by Newfoundation.`,
+      */
+copyright: `Copyright © ${new Date().getFullYear()} Newcoin is an open-source project powered by Newfoundation.`,
     },
     prism: {
       theme: lightCodeTheme,
