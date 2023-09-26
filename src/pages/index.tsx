@@ -21,8 +21,9 @@ function HomepageHeader() {
             Get Started With Newcoin
           </Link>
         </div>
+                      <img src="/img/welcome.png" alt="Welcome to the cutting-edge, anon!" style={{marginTop: '44px'}} />
+
       </div>
-              <img src="/img/welcome.png" alt="Welcome to the cutting-edge, anon!" style={{marginTop: '44px'}} />
     </header>
   );
 }
