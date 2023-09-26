@@ -1,11 +1,5 @@
 # WATT
 
----
-id: watt-identity-proxy
-title: The WATT Identity Proxy
-sidebar_label: WATT Identity Proxy
----
-
 ## Introduction
 
 In the intricate web of decentralized networks and systems, identity representation has always posed a challenge. The **WATT Identity Proxy** emerges as an innovative solution in the Newcoin ecosystem, tying the essence of creative energy to a universally queryable, account-bound fungible token.
