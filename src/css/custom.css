@@ -108,6 +108,10 @@ a:hover {
   --ifm-h3-font-size: 1.25rem;
 }
 
+.col p {
+  text-align:left !important;
+}
+
 @font-face {
   font-display: swap;
   font-family: Newfoundation Whyte;
