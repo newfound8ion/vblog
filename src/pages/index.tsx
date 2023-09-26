@@ -14,6 +14,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <img src="/img/welcome.png" alt="Welcome to the cutting-edge, anon!" style={{marginTop: '44px'}} />
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -21,8 +22,6 @@ function HomepageHeader() {
             Newcoin Intro
           </Link>
         </div>
-        {/* Add the image below the button */}
-<img src="/img/welcome.png" alt="Welcome to the cutting-edge, anon!" style={{marginTop: '26px'}} />
       </div>
     </header>
   );
