@@ -45,7 +45,18 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-<img src="/img/hypernetwork.png" alt="Newcoin Hypernetwork" style={{marginTop: '44px'}} />
+<img 
+  src="/img/hypernetwork.png" 
+  alt="Newcoin Hypernetwork" 
+  style={{ 
+    display: 'block', 
+    marginLeft: 'auto', 
+    marginRight: 'auto', 
+    marginTop: '0', 
+  }} 
+/>
+
+        
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
