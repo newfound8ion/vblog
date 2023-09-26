@@ -1,12 +1,12 @@
 # Introducing Newcoin
 
-Intelligence Network Effect is the most powerful asset of a digital network: since the basic Metcalfe's law, digital networks have evolved into self-readjusting systems recursively gaining dominance through persistent data accumulation amplified by layers of adaptive learning.
+Intelligence Network Effect is the most powerful asset of a digital network: since the basic Metcalfe's law, digital networks such as Google, Instagram, TikTok and GPT-4 have evolved into self-readjusting systems recursively gaining dominance through persistent data accumulation amplified by layers of adaptive learning.
 
-At this point in time, it seems there is almost no chance to dislodge incumbents regardless of the quality of alternative consumer products, their incentive schemes or their governance structure. The power of adaptive learning combined with sunk cost makes it impossible for new networks to emerge meaningfully.
+At this point in time, it seems there is almost no chance to decentralize the Internet regardless of the quality of web3 consumer products, their incentive schemes or their open governance structure. The power of adaptive learning amplified by our sunk cost in building our identity signals inside those networks keeps increasing, and our chance to save the Internet from ubiquitous concentration is shrinking.
 
-In order to address this issue, Newcoin introduces a new paradigm for network intelligence: blending open algorithms and decentralized identity proxies, Newcoin offers the rails for network intelligence synergy.
+In order to address this issue, Newcoin introduces a new paradigm for network intelligence: blending open algorithms and decentralized identity proxies, Newcoin offers the rails for network intelligence synergy. Newcoin is a decentralized algorithm for blockchain networks, social networks and neural networks to interoperate. Instead of running behind the firewalls of each individual and monolithic application, Newcoin operates in plain sight and can be queried universally by any system to enhance sybil resistance, curation, machine learning training weights and unlock new forms of algorithmic synergies across diverse networks.
 
-Newcoin is a log of cryptographically signed credentials that are processed in parallel using a probabilistic state machine to achieve a shared consensus state powered by the Proof-of-Creativity algorithm. Proof-of-Creativity generates an algoritmic identity proxy allowing networks to enhance the discernment of value creation by network participants, akin to Google's PageRank, applied to decentralized identity systems.
+Under the hood, Newcoin is a log of cryptographically signed credentials that are processed in parallel using a probabilistic state machine to achieve a shared consensus state powered by the Proof-of-Creativity algorithm. Proof-of-Creativity generates an algoritmic identity proxy called the WATT (of creative energy) allowing networks to enhance the discernment of value creation by network participants, akin to Google's PageRank, applied to decentralized identity systems.
 
 Beyond its ability to coordinate networks through a robust weight abstraction hypernetwork, Newcoin allows users to navigate and accrue social capital across networks of various topologies: from social to neural to blockchain networks, users compound social capital and establish trusted connections, financial and utility benefits.
 
@@ -19,16 +19,13 @@ At the foundation of Newcoin lies a series of cryptographically signed statement
 ### **Probabilistic State Machine**
 Newcoin's consensus mechanism, the probabilistic state machine, processes these signed statements in parallel. This asynchronous, decentralized algorithm ensures an 'eventually consistent' shared state across nodes, even amidst disparate data states.
 
-### **PowerUP Data Object**
-The PowerUP object, an abstraction layer, encodes the weighted sentiment of creators. These data primitives aggregate to form a comprehensive representation of a creator's social and creative capital, synthesizing multiple metrics, data sources, and schemas into a standardized format.
-
 ### **Meta-Algorithm: Proof-of-Creativity**
 Central to Newcoin's proposition is the Proof-of-Creativity algorithm. This meta-algorithm ingests aggregated data objects, applying a complex weighting mechanism, democratically determined by network participants. Through logarithmic scaling and normalization techniques, it outputs a definitive score: the WATT.
 
 ## **Architectural Highlights**
 
 - **Data Authentication**: Ensuring data integrity through cryptographic hashing and digital signatures.
-- **Data Normalization**: Proprietary algorithms that transform platform-specific metrics into a universal PowerUP data schema.
+- **Data Normalization**: Proprietary algorithms that transform platform-specific metrics into a universal data schema.
 - **Scalability**: A horizontally scalable system, facilitated by the probabilistic state machine.
 - **Interoperability**: Agnostic to data sources, schemas, and computing paradigms, Newcoin ensures seamless integration across platforms.
 - **Deterministic Outcomes**: Despite its probabilistic nature, the WATT score provides a deterministic evaluation of a creator's value, echoing computational methods akin to Bitcoin's hash power and Google's PageRank.
@@ -51,4 +48,4 @@ Newcoin's qualitative sybil resistance approach elevates the Proof-of-Personhood
 
 The NCO token mechanistically captures value, necessitating NCO staking for each validation. As validators and creators earn exchange fees from validations, the demand for NCO surges, while supply diminishes.
 
-Join us in revolutionizing the creative economy, making networks smarter, and shaping the future of decentralized systems.
+Join us in taking the Internet to the next lebel, and shaping a future where decentralized systems are growing smarter together.
