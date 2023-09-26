@@ -114,7 +114,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Newcoin is an open-source project powered by Newfoundation.`,
     },
     prism: {
       theme: lightCodeTheme,
