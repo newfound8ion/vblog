@@ -13,9 +13,9 @@
   --ifm-color-primary-light: #000000;
   --ifm-color-primary-lighter: #000000;
   --ifm-color-primary-lightest: #000000;
-  --ifm-code-font-size: 17px;
+  --ifm-code-font-size: 23.3px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-font-size-base: 17px;
+  --ifm-font-size-base: 23.3px;
   --ifm-line-height-base: 170%;
 }
 
@@ -38,7 +38,7 @@ time, mark, audio, video {
   font-weight:normal;
 }
 * {
-    font-size: 17px !important;
+    font-size: 23.3px !important;
     font-weight: normal !important;
     line-height: 170%;
 }
