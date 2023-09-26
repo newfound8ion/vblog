@@ -13,10 +13,10 @@
   --ifm-color-primary-light: #000000;
   --ifm-color-primary-lighter: #000000;
   --ifm-color-primary-lightest: #000000;
-  --ifm-code-font-size: 26px;
+  --ifm-code-font-size: 17px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-font-size-base: 26px;
-  --ifm-line-height-base: 125%;
+  --ifm-font-size-base: 17px;
+  --ifm-line-height-base: 170%;
 }
 
 body, html, div, span, applet, object, iframe,
@@ -38,9 +38,9 @@ time, mark, audio, video {
   font-weight:normal;
 }
 * {
-    font-size: 26px !important;
+    font-size: 17px !important;
     font-weight: normal !important;
-    line-height: 152%;
+    line-height: 170%;
 }
 
 
@@ -141,5 +141,5 @@ a:hover {
 
 .footer__links a {
   text-transform: uppercase;
-  font-size: 8px;
+  font-size: 8px !important;
 }
