@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Newcoin Developer',
   tagline: 'Contribute to the Proof-of-Creativity Algorithm',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/636cdeb29d8af379852bdd3c_fav1.png',
 
   // Set the production url of your site here
   url: 'https://developer.newcoin.org',
