@@ -22,14 +22,21 @@ const sidebars = {
         {
           type: "category",
           label: "Creating Watts",
-          items: ["getting-started/creating-watts/activation-function"],
+          items: [
+            "getting-started/creating-watts/activation-function-interface",
+            "getting-started/creating-watts/activation-function-logic",
+            "getting-started/creating-watts/register-activation-function",
+            "getting-started/creating-watts/activation-function-approval",
+            "getting-started/creating-watts/call-activate",
+          ],
         },
         {
           type: "category",
           label: "Using Watts",
           items: [
-            "getting-started/using-watts/onchain",
-            "getting-started/using-watts/ethersjs",
+            "getting-started/using-watts/querying-watts",
+            // "getting-started/using-watts/onchain",
+            // "getting-started/using-watts/ethersjs",
           ],
         },
       ],
