@@ -18,7 +18,7 @@ const sidebars = {
       type: "category",
       label: "Getting Started",
       items: [
-        "getting-started/quickstart",
+        "getting-started/overview",
         {
           type: "category",
           label: "Creating Watts",
