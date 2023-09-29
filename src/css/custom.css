@@ -58,8 +58,8 @@ a:hover {
 
 /* Table of contents styling */
 .table-of-contents li {
-  line-height:125%;
-  padding-bottom:17px;
+  line-height:80%;
+  padding-bottom:8px;
 }
 
 /* Navbar styling */
