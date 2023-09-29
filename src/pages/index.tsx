@@ -26,7 +26,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="https://github.com/newfound8ion/newcoin-evm">
-            Newcoin EVM Repository on GitHub
+            Newcoin EVM GitHub Repo
           </Link>
         </div>
       </div>
