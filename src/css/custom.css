@@ -104,11 +104,13 @@ video {
   color: #000000;
   border-color: #000000;
   font-weight: normal;
+  font-family: 'Newfoundation Whyte' !important;
 }
 * {
   font-size: 23.3px;
   font-weight: normal;
   line-height: 170%;
+  font-family: 'Newfoundation Whyte' !important;
 }
 
 a {
@@ -119,7 +121,10 @@ a {
 a:hover {
   color: #000000;
 }
-
+.table-of-contents li {
+  line-height:125%;
+  padding-bottom:17px;
+}
 /* Additional styles based on your existing CSS */
 .navbar--fixed-top {
   padding: 0px;
@@ -181,7 +186,7 @@ a:hover {
 
 @font-face {
   font-display: swap;
-  font-family: Newfoundation Whyte;
+  font-family: 'Newfoundation Whyte';
   font-style: normal;
   font-weight: 200;
   src:
