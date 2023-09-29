@@ -163,30 +163,3 @@ a:hover {
   font-size: 8px !important;
 }
 
-/* Media query for tablets and larger mobile devices */
-@media only screen and (max-width: 768px) {
-  .markdown > h1 {
-    font-size: 18px; 
-    letter-spacing: -0.8px;
-  }
-  .markdown > h2 {
-    font-size: 14px; 
-  }
-  .button {
-    font-size: 80%; 
-  }
-}
-
-/* Media query for smaller mobile devices */
-@media only screen and (max-width: 425px) {
-  .markdown > h1 {
-    font-size: 15px; 
-    letter-spacing: -0.8px;
-  }
-  .markdown > h2 {
-    font-size: 12px; 
-  }
-  .button {
-    font-size: 75%; 
-  }
-}
