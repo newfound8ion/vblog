@@ -170,7 +170,7 @@ a:hover {
 
 .markdown > h1 {
   --ifm-h2-font-size: 2.6rem;
-  letter-spacing: -0.8px;
+  letter-spacing: -1px;
 }
 
 .markdown > h2 {
@@ -226,7 +226,15 @@ a:hover {
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 768px) {
-  .markdown > h1, .markdown > h2, .button {
-    font-size: 0.7em; /* 70% of original size */
+  .markdown > h1 {
+    font-size: 17px; 
+  } 
+  
+  .markdown > h2 {
+    font-size: 12.5px; 
+  } 
+  
+  .button {
+    font-size: 80%; 
   }
 }
