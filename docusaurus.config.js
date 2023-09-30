@@ -12,7 +12,7 @@ const config = {
 
   // Set the production url of your site here
   url: "https://developer.newcoin.org",
-  baseUrl: "/",
+  baseUrl: "/vblog/",
 
   organizationName: "newfound8ion",
   projectName: "developer",
@@ -34,6 +34,7 @@ const config = {
           editUrl: "https://github.com/newfound8ion/developer/edit/master/",
         },
         blog: {
+          path: "/",
           showReadingTime: true,
           editUrl: "https://github.com/newfound8ion/developer/edit/master/",
         },
@@ -53,6 +54,9 @@ const config = {
         alt: "Newcoin",
         src: "/img/641c37a4fce0f1c717da3692_nco-symbol-black.svg",
       },
+      items: [
+        {to: 'blog', label: 'Blog', position: 'left'},
+      ],
     },
     footer: {
       style: "dark",
