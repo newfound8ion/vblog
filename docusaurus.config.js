@@ -12,7 +12,7 @@ const config = {
 
   // Set the production url of your site here
   url: "https://developer.newcoin.org",
-  baseUrl: "/vblog/",
+  baseUrl: "/",
 
   organizationName: "newfound8ion",
   projectName: "developer",
