@@ -1,7 +1,11 @@
-<!-- docs/home.md -->
 ---
 id: home
 title: My Homepage
+slug: /
 ---
 
-## Welcome to Vector's website
+Welcome to my homepage!
+
+## Section
+
+Content goes here.
