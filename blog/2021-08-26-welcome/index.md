@@ -1,25 +1,12 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
 ---
+**First Order Creative Energy** is the foundational force that fuels the universe, acting as the silent architect crafting celestial bodies and weaving a tapestry of light and gravity, all the way to the atoms that compose the molecules of your brain, the air between your eyes and the screen, everything! This energy, subtle yet powerful, whispers through space, unfolding tales of creation and destruction. It's not just an scientific concept studied by astrophysicists but also a spiritual essence acknowledged by visionaries, poets, and mystics who perceive it as a divine spark illuminating the human spirit. With hearts open and eyes closed, they have perceived it as the divine spark. Through their wisdom and words, they invite us to acknowledge and feel this sacred energy, recognizing its presence within and around us, orchestrating a symphony of life and love. This energy is omnipresent, subtly influencing our existence. When we gaze at the night sky, marvel at the complexity of nature, or experience moments of inspiration and awe, we are interacting with First Order Creative Energy. It's the unseen force that binds the universe, providing a canvas for the dance of life and creativity.
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+**Second Order Creative Energy** represents human creativity and consciousness, a dynamic force that reshapes primal energies into symbols, languages, and civilizations. It's vibrantly alive and evolutionary, driving humanity towards mastery and understanding of causality. This energy manifests in every symbol we create, every word we speak, and every idea we share. It's the force behind our drive to learn, create, and connect, fueling our advancements from simple tools to complex technologies and medicines.
+When a child picks up a crayon and draws, when a poet crafts a verse, or when a scientist formulates a theory, Second Order Creative Energy is at play. It’s the invisible hand guiding our progress, from alleviating diseases to crafting virtual realities, weaving a narrative of human achievement and exploration.
 
-Simply add Markdown files (or folders) to the `blog` directory.
+**Third Order Creative Energy** is the synthetic Creative Energy. This energy is born from human ingenuity, residing within our creations like stories, machines, AI, books, and media. It's a derivative of human creativity but has the potential to carve its own path, acting autonomously and evolving independently. Third Order Creative Energy is in action when a speech or book inspires movement, when a research paper navigates its way to a lab on the other side of the world, when algorithms drive us towards acting in a certain way, while influencing the engineers who design it based on the influence of other constructs such as industrialism or the advertising industry. Third Order Creative Energy ripples back to us and manifests in ways that may diverge from human understanding, opening doors to unimagined possibilities.
 
-Regular blog authors can be added to `authors.yml`.
-
-The blog post date can be extracted from filenames, such as:
-
-- `2019-05-30-welcome.md`
-- `2019-05-30-welcome/index.md`
-
-A blog post folder can be convenient to co-locate blog post images:
-
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
-
-The blog supports tags as well!
-
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+![Creative Energy](/static/img/creativeenergy.png)
