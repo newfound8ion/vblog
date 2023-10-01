@@ -1,38 +1,37 @@
-// src/pages/index.tsx
-
 import React from 'react';
-import Layout from '@theme/Layout';
-import { useRouteData } from '@docusaurus/useRouteData';
 import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import BlogPostItem from '@theme/BlogPostItem';
+import BlogListPaginator from '@theme/BlogListPaginator';
 
-export default function Home(): JSX.Element {
-  const { items } = useRouteData();
-  const blogItems = items || [];
+function Home() {
+  const context = useDocusaurusContext();
+  const {siteConfig = {}} = context;
+
+  // You might need to adjust the way you query and load blog posts
+  // The example below is a placeholder and might not work out of the box
+  const blogPosts = []; // Load your blog posts here
 
   return (
-    <Layout
-      title="Blog Home"
-      description="List of blog posts and their content">
-      <div style={{ display: 'flex', flexDirection: 'row' }}>
-        <div style={{ flex: '0 0 25%', borderRight: '1px solid #ddd', padding: '20px' }}>
-          <ul>
-            {blogItems.map((item, index) => (
-              <li key={index}>
-                <Link to={item.permalink}>{item.title}</Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div style={{ flex: '1', padding: '20px' }}>
-          {blogItems.map((item, index) => (
-            <div key={index} id={item.permalink}>
-              <h2>{item.title}</h2>
-              <div dangerouslySetInnerHTML={{ __html: item.content }} />
-            </div>
-          ))}
-        </div>
-      </div>
-    </Layout>
+    <div>
+      <header>
+        <h1>{siteConfig.title}</h1>
+        <p>{siteConfig.tagline}</p>
+      </header>
+      <main>
+        {blogPosts.map((post: any) => (
+          <BlogPostItem
+            key={post.metadata.permalink}
+            frontMatter={post.metadata}
+            isBlogPostPage={false}
+          >
+            {post.content}
+          </BlogPostItem>
+        ))}
+        <BlogListPaginator metadata={{}} />
+      </main>
+    </div>
   );
 }
 
+export default Home;
