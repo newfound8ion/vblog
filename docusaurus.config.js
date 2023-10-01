@@ -1,6 +1,4 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
@@ -10,7 +8,6 @@ const config = {
   tagline: "Contribute to the Proof-of-Creativity Algorithm",
   favicon: "img/636cdeb29d8af379852bdd3c_fav1.png",
 
-  // Set the production url of your site here
   url: "https://newfound8ion.github.io/",
   baseUrl: "/vblog/",
 
@@ -30,6 +27,8 @@ const config = {
       "classic",
       {
         docs: {
+          routeBasePath: '/', // Set to root
+          homePageId: 'home', // Set home.md as the homepage
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/newfound8ion/developer/edit/master/",
         },
@@ -44,15 +43,19 @@ const config = {
     ],
   ],
 
-  
   themeConfig: {
     image: "/img/641c37a4fce0f1c717da3692_nco-symbol-black.svg",
     navbar: {
       title: "Vectoshi Eigenvector Newkamoto",
       logo: {
         alt: "Vector",
-        src: "/img/641c37a4fce0f1c717da3692_nco-symbol-black.svg",
+        src: "/img/vectoshieigenvectornewkamoto.gif", // Replace with the path to your gif logo
+        href: "/", // Link back to homepage
+        target: "_self", // Open in the same tab
       },
+      items: [
+        // Add other navbar items as needed
+      ],
     },
     footer: {
       style: "dark",
