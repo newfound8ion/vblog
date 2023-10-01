@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdeveloper_newcoin_org_2=self.webpackChunkdeveloper_newcoin_org_2||[]).push([[2703],{873:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/vblog/blog/tags/hello","allTagsPath":"/vblog/blog/tags","count":2}')}}]);
