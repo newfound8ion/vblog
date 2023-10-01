@@ -164,16 +164,52 @@ a:hover {
   font-size: 8px !important;
 }
 
-/* src/css/custom.css */
+/* ... (other existing styles) ... */
 
-.blog-overview-container {
-  display: flex;
+/* Remove borders from all elements for a brutalist design */
+* {
+  border: none !important;
 }
 
-.blog-list {
-  width: 25%;
+/* Navbar styling adjustments */
+.navbar {
+  border: none !important; /* Remove border */
+  background-color: transparent !important; /* Set background to transparent */
 }
 
-.blog-posts {
-  width: 75%;
+/* Center the navbar logo */
+.navbar__logo {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
 }
+
+/* Adjust the size of the navbar logo */
+.navbar__logo img {
+  width: auto !important; /* Set to the original width of the GIF */
+  height: auto !important; /* Set to the original height of the GIF */
+  max-width: 100% !important; /* Ensure it doesn’t overflow */
+  max-height: 100% !important; /* Ensure it doesn’t overflow */
+}
+
+/* Adjust the layout widths */
+/* You may need to adjust the selectors based on your actual HTML structure */
+.title-container {
+  width: 20% !important; /* Set the width of the titles to 20% */
+}
+
+.content-container {
+  width: 80% !important; /* Set the width of the content to 80% */
+}
+
+/* Ensure the website takes the full width */
+body {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ... (other existing styles) ... */
+
+
