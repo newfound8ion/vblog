@@ -11,11 +11,11 @@ const config = {
   favicon: "img/636cdeb29d8af379852bdd3c_fav1.png",
 
   // Set the production url of your site here
-  url: "https://developer.newcoin.org",
-  baseUrl: "/",
+  url: "https://newfound8ion.github.io/",
+  baseUrl: "/vblog/",
 
   organizationName: "newfound8ion",
-  projectName: "developer",
+  projectName: "vblog",
 
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
@@ -49,9 +49,9 @@ const config = {
   themeConfig: {
     image: "/img/641c37a4fce0f1c717da3692_nco-symbol-black.svg",
     navbar: {
-      title: "Newcoin Developer",
+      title: "Vectoshi Eigenvector Newkamoto",
       logo: {
-        alt: "Newcoin",
+        alt: "Vector",
         src: "/img/641c37a4fce0f1c717da3692_nco-symbol-black.svg",
       },
       items: [
@@ -60,7 +60,7 @@ const config = {
     },
     footer: {
       style: "dark",
-      copyright: `Copyright © ${new Date().getFullYear()} Newcoin is an open-source project powered by Newfoundation.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Vector Newman.`,
     },
     prism: {
       theme: lightCodeTheme,
