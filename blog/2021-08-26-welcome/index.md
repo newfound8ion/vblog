@@ -1,7 +1,9 @@
 ---
-slug: welcome
-title: Welcome
+slug: creativeenergy
+title: Defining Creative Energy
 ---
+
+
 **First Order Creative Energy** is the foundational force that fuels the universe, acting as the silent architect crafting celestial bodies and weaving a tapestry of light and gravity, all the way to the atoms that compose the molecules of your brain, the air between your eyes and the screen, everything! This energy, subtle yet powerful, whispers through space, unfolding tales of creation and destruction. It's not just an scientific concept studied by astrophysicists but also a spiritual essence acknowledged by visionaries, poets, and mystics who perceive it as a divine spark illuminating the human spirit. With hearts open and eyes closed, they have perceived it as the divine spark. Through their wisdom and words, they invite us to acknowledge and feel this sacred energy, recognizing its presence within and around us, orchestrating a symphony of life and love. This energy is omnipresent, subtly influencing our existence. When we gaze at the night sky, marvel at the complexity of nature, or experience moments of inspiration and awe, we are interacting with First Order Creative Energy. It's the unseen force that binds the universe, providing a canvas for the dance of life and creativity.
 
 **Second Order Creative Energy** represents human creativity and consciousness, a dynamic force that reshapes primal energies into symbols, languages, and civilizations. It's vibrantly alive and evolutionary, driving humanity towards mastery and understanding of causality. This energy manifests in every symbol we create, every word we speak, and every idea we share. It's the force behind our drive to learn, create, and connect, fueling our advancements from simple tools to complex technologies and medicines.
