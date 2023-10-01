@@ -27,6 +27,11 @@ body, html {
   color: #000000;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-size: var(--global-font-size) !important;
+  font-weight: var(--global-font-weight) !important;
+}
+
 a {
   color: var(--ifm-color-primary);
   text-decoration: none;
@@ -77,6 +82,7 @@ a:hover {
 /** Global Styling Adjustments */
 * {
   border: none !important;
+  box-sizing: border-box;
 }
 
 /** Layout Adjustments */
