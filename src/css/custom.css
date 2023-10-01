@@ -1,10 +1,8 @@
 /** Global Settings */
 :root {
   --ifm-color-primary: #000000;
-  --ifm-code-font-size: 23.3px;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-font-size-base: 23.3px;
-  --ifm-line-height-base: 170%;
+  --global-font-size: 23.3px;
+  --global-font-weight: normal;
 }
 
 /** Font Face Definition */
@@ -16,14 +14,15 @@
   src: local(""), url(/font/NewfoundationWhyte-Regular.woff) format("woff");
 }
 
-/** General Styling */
+/** Global Text Styling */
 body, html {
-  font-size: var(--ifm-font-size-base) !important;
-  line-height: var(--ifm-line-height-base);
-  font-family: 'Newfoundation Whyte' !important;
+  font-size: var(--global-font-size);
+  font-weight: var(--global-font-weight);
+  font-family: 'Newfoundation Whyte', sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 100%;
   background-color: #ffffff;
   color: #000000;
 }
@@ -62,43 +61,6 @@ a:hover {
   max-height: 100%;
 }
 
-/** Layout Widths */
-.title-container {
-  width: 20%;
-}
-
-.content-container {
-  width: 80%;
-}
-
-/** Table of Contents Styling */
-.table-of-contents li {
-  line-height: 80% !important;
-  padding-bottom: 8px;
-}
-
-/** Markdown Styling */
-.markdown a {
-  text-decoration: underline;
-}
-
-.markdown > h1 {
-  --ifm-h2-font-size: 2.6rem;
-  letter-spacing: -1px;
-}
-
-.markdown > h2 {
-  --ifm-h2-font-size: 1.7rem;
-}
-
-.markdown > h3 {
-  --ifm-h3-font-size: 1.25rem;
-}
-
-.col p {
-  text-align: left !important;
-}
-
 /** Footer Customization */
 .footer--dark {
   --ifm-footer-background-color: #ffffff;
@@ -112,19 +74,24 @@ a:hover {
   font-size: 8px !important;
 }
 
-/** Home Main Div Customization */
-.home main {
-  padding-top: 800px;
-  background: url("/static/img/3854863592_d7778af733_o.jpg") no-repeat center top;
-  background-size: cover;
-}
-
-/** Hero Section Styling */
-.hero {
-  background-color: #ffffff !important;
-}
-
 /** Global Styling Adjustments */
 * {
   border: none !important;
 }
+
+/** Layout Adjustments */
+.title-container {
+  width: 20%;
+}
+
+.content-container {
+  width: 80%;
+}
+
+/** Hide Specific Elements */
+.sidebarItemTitle_pO2u {
+  display: none !important;
+}
+
+/** Specific Markdown Overrides (if any) */
+/* Add specific styling overrides for elements generated from Markdown here */
