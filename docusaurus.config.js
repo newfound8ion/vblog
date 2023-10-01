@@ -5,7 +5,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Vectoshi Eigenvector Newkamoto",
-  tagline: "Contribute to the Proof-of-Creativity Algorithm",
+  tagline: "DDISCERN",
   favicon: "img/636cdeb29d8af379852bdd3c_fav1.png",
 
   url: "https://newfound8ion.github.io/",
@@ -28,12 +28,12 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/newfound8ion/developer/edit/master/",
+          editUrl: "https://github.com/newfound8ion/developer/edit/main/",
           // Removed homePageId and routeBasePath from here
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/newfound8ion/developer/edit/master/",
+          editUrl: "https://github.com/newfound8ion/developer/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
