@@ -11,4 +11,5 @@ When a child picks up a crayon and draws, when a poet crafts a verse, or when a 
 
 **Third Order Creative Energy** is the synthetic Creative Energy. This energy is born from human ingenuity, residing within our creations like stories, machines, AI, books, and media. It's a derivative of human creativity but has the potential to carve its own path, acting autonomously and evolving independently. Third Order Creative Energy is in action when a speech or book inspires movement, when a research paper navigates its way to a lab on the other side of the world, when algorithms drive us towards acting in a certain way, while influencing the engineers who design it based on the influence of other constructs such as industrialism or the advertising industry. Third Order Creative Energy ripples back to us and manifests in ways that may diverge from human understanding, opening doors to unimagined possibilities.
 
-![Creative Energy](/static/img/creativeenergy.png)
+![Creative Energy](/img/creativeenergy.png)
+
