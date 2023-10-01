@@ -48,7 +48,7 @@ const config = {
       title: "Vectoshi Eigenvector Newkamoto",
       logo: {
         alt: "Vector",
-        src: "/img/headerLogo.gif", // Replace with the path to your gif logo
+        src: "/img/vectoshieigenvectornewkamoto.gif", // Replace with the path to your gif logo
         href: "/", // Link back to homepage
         target: "_self", // Open in the same tab
       },
