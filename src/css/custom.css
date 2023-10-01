@@ -1,109 +1,83 @@
-/** 
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* Global settings for brutalist design */
+/** Global Settings */
 :root {
   --ifm-color-primary: #000000;
-  --ifm-color-primary-dark: #ffffff;
-  --ifm-color-primary-darker: #000000;
-  --ifm-color-primary-darkest: #000000;
-  --ifm-color-primary-light: #000000;
-  --ifm-color-primary-lighter: #000000;
-  --ifm-color-primary-lightest: #000000;
   --ifm-code-font-size: 23.3px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-size-base: 23.3px;
   --ifm-line-height-base: 170%;
 }
 
-/* General styling */
-body, html, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
-abbr, acronym, address, big, cite, code, del, dfn,
-em, img, ins, kbd, q, s, samp, small, strike,
-strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label,
-legend, table, caption, tbody, tfoot, thead, tr,
-th, td, article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup, menu,
-nav, output, ruby, section, summary, time, mark,
-audio, video {
-    font-size: 23.3px !important;
+/** Font Face Definition */
+@font-face {
+  font-display: swap;
+  font-family: 'Newfoundation Whyte';
+  font-style: normal;
+  font-weight: 200;
+  src: local(""), url(/font/NewfoundationWhyte-Regular.woff) format("woff");
+}
+
+/** General Styling */
+body, html {
+  font-size: var(--ifm-font-size-base) !important;
+  line-height: var(--ifm-line-height-base);
+  font-family: 'Newfoundation Whyte' !important;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   background-color: #ffffff;
   color: #000000;
-  border-color: #000000;
-  font-weight: normal;
-  font-family: 'Newfoundation Whyte' !important;
 }
 
-/* General styling for all elements */
-* {
-    font-size: 23.3px !important;
-  font-weight: normal;
-  line-height: 170%;
-  font-family: 'Newfoundation Whyte' !important;
-}
-
-/* Anchor styling */
 a {
-  color: #000000;
+  color: var(--ifm-color-primary);
   text-decoration: none;
 }
 
 a:hover {
-  color: #000000;
+  color: var(--ifm-color-primary);
 }
 
-/* Table of contents styling */
-.table-of-contents li {
-  line-height:80% !important;
-  padding-bottom:8px;
+/** Navbar Styling */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border: none !important;
+  z-index: 1000;
 }
 
-/* Navbar styling */
-.navbar--fixed-top {
-  padding: 0px;
+.navbar__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .navbar__logo img {
-  height: 24px;
-  vertical-align: middle;
-  padding-left: 20px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.navbar__brand {
-  height: 100%;
-  width: 324px;
-  box-shadow: 0.25px 0 0.25px 0 #000000;
-  position: absolute;
-  left: 0px;
+/** Layout Widths */
+.title-container {
+  width: 20%;
 }
 
-.navbar__items {
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  box-shadow: 0.25px 0 0.25px 0 #000000;
+.content-container {
+  width: 80%;
 }
 
-/* More navbar styling */
-.navbar__items--right {
-  width: 324px;
-  box-shadow: 0 0 0 0;
+/** Table of Contents Styling */
+.table-of-contents li {
+  line-height: 80% !important;
+  padding-bottom: 8px;
 }
 
-.menu__link {
-  padding-left: 12px;
-}
-
-.menu__caret:before {
-  background: var(--ifm-menu-link-sublist-icon) 50% / 1rem 1rem;
-}
-
-/* Markdown styling */
+/** Markdown Styling */
 .markdown a {
   text-decoration: underline;
 }
@@ -125,33 +99,7 @@ a:hover {
   text-align: left !important;
 }
 
-/* Font face definition */
-@font-face {
-  font-display: swap;
-  font-family: 'Newfoundation Whyte';
-  font-style: normal;
-  font-weight: 200;
-  src: local(""), url(/font/NewfoundationWhyte-Regular.woff) format("woff");
-}
-
-/* Home main div customization */
-.home main {
-  padding-top: 800px;
-  background: url("/static/img/3854863592_d7778af733_o.jpg") no-repeat center top;
-  background-size: cover;
-}
-
-/* Root hero background color */
-:root {
-  --ifm-hero-background-color: #ffffff;
-}
-
-/* Hero section styling */
-.hero {
-  background-color: #ffffff !important;
-}
-
-/* Footer customization */
+/** Footer Customization */
 .footer--dark {
   --ifm-footer-background-color: #ffffff;
   --ifm-footer-color: #000000;
@@ -164,52 +112,19 @@ a:hover {
   font-size: 8px !important;
 }
 
-/* ... (other existing styles) ... */
+/** Home Main Div Customization */
+.home main {
+  padding-top: 800px;
+  background: url("/static/img/3854863592_d7778af733_o.jpg") no-repeat center top;
+  background-size: cover;
+}
 
-/* Remove borders from all elements for a brutalist design */
+/** Hero Section Styling */
+.hero {
+  background-color: #ffffff !important;
+}
+
+/** Global Styling Adjustments */
 * {
   border: none !important;
 }
-
-/* Navbar styling adjustments */
-.navbar {
-  border: none !important; /* Remove border */
-  background-color: transparent !important; /* Set background to transparent */
-}
-
-/* Center the navbar logo */
-.navbar__logo {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  width: 100% !important;
-}
-
-/* Adjust the size of the navbar logo */
-.navbar__logo img {
-  width: auto !important; /* Set to the original width of the GIF */
-  height: auto !important; /* Set to the original height of the GIF */
-  max-width: 100% !important; /* Ensure it doesn’t overflow */
-  max-height: 100% !important; /* Ensure it doesn’t overflow */
-}
-
-/* Adjust the layout widths */
-/* You may need to adjust the selectors based on your actual HTML structure */
-.title-container {
-  width: 20% !important; /* Set the width of the titles to 20% */
-}
-
-.content-container {
-  width: 80% !important; /* Set the width of the content to 80% */
-}
-
-/* Ensure the website takes the full width */
-body {
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* ... (other existing styles) ... */
-
-
