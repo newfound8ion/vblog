@@ -29,9 +29,9 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/newfound8ion/developer/edit/main/",
-          // Removed homePageId and routeBasePath from here
         },
         blog: {
+          routeBasePath: '/', // Set this to '/' to make blog posts appear on homepage
           showReadingTime: true,
           editUrl: "https://github.com/newfound8ion/developer/edit/main/",
         },
@@ -48,7 +48,7 @@ const config = {
       title: "Vectoshi Eigenvector Newkamoto",
       logo: {
         alt: "Vector",
-        src: "/img/vectoshieigenvectornewkamoto.gif", // Replace with the path to your gif logo
+        src: "/img/vectoshieigenvectornewkamoto.gif", // Ensure this path is correct
         href: "/", // Link back to homepage
         target: "_self", // Open in the same tab
       },
