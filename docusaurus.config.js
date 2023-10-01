@@ -4,7 +4,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Newcoin Developer",
+  title: "Vectoshi Eigenvector Newkamoto",
   tagline: "Contribute to the Proof-of-Creativity Algorithm",
   favicon: "img/636cdeb29d8af379852bdd3c_fav1.png",
 
@@ -27,10 +27,9 @@ const config = {
       "classic",
       {
         docs: {
-          routeBasePath: '/', // Set to root
-          homePageId: 'home', // Set home.md as the homepage
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/newfound8ion/developer/edit/master/",
+          // Removed homePageId and routeBasePath from here
         },
         blog: {
           showReadingTime: true,
@@ -49,7 +48,7 @@ const config = {
       title: "Vectoshi Eigenvector Newkamoto",
       logo: {
         alt: "Vector",
-        src: "/img/vectoshieigenvectornewkamoto.gif", // Replace with the path to your gif logo
+        src: "/img/headerLogo.gif", // Replace with the path to your gif logo
         href: "/", // Link back to homepage
         target: "_self", // Open in the same tab
       },
