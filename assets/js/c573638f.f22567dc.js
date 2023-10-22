@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdeveloper_newcoin_org_2=self.webpackChunkdeveloper_newcoin_org_2||[]).push([[964],{8866:e=>{e.exports=JSON.parse('[{"label":"docusaurus","permalink":"/tags/docusaurus","count":1}]')}}]);
