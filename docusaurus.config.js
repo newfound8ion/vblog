@@ -5,7 +5,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Vectoshi Eigenvector Newkamoto",
-  tagline: "DISCERN",
+  tagline: "DDISCERN",
   favicon: "img/636cdeb29d8af379852bdd3c_fav1.png",
 
   url: "https://vector.xn--rhqv96g/",
