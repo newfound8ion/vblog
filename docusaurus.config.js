@@ -8,7 +8,7 @@ const config = {
   tagline: "DISCERN",
   favicon: "img/636cdeb29d8af379852bdd3c_fav1.png",
 
-  url: "http://vector.xn--rhqv96g/",
+  url: "https://vector.xn--rhqv96g/",
   baseUrl: "/",
 
   organizationName: "newfound8ion",
@@ -33,7 +33,7 @@ const config = {
         blog: {
           routeBasePath: '/', // Set this to '/' to make blog posts appear on homepage
           showReadingTime: true,
-          editUrl: "https://github.com/newfound8ion/developer/edit/main/",
+          editUrl: "https://vector.xn--rhqv96g/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
