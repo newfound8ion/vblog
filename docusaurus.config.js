@@ -8,8 +8,8 @@ const config = {
   tagline: "DDISCERN",
   favicon: "img/636cdeb29d8af379852bdd3c_fav1.png",
 
-  url: "https://newfound8ion.github.io/",
-  baseUrl: "/vblog/",
+  url: "http://vector.xn--rhqv96g/",
+  baseUrl: "/",
 
   organizationName: "newfound8ion",
   projectName: "vblog",
