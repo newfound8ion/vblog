@@ -28,12 +28,12 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/newfound8ion/developer/edit/main/",
+          editUrl: "https://github.com/newfound8ion/vblog/edit/main/",
         },
         blog: {
           routeBasePath: '/', // Set this to '/' to make blog posts appear on homepage
           showReadingTime: true,
-          editUrl: "https://vector.xn--rhqv96g/edit/main/",
+          editUrl: "https://github.com/newfound8ion/vblog/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
