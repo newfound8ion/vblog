@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdeveloper_newcoin_org_2=self.webpackChunkdeveloper_newcoin_org_2||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Defining Creative Energy","permalink":"/creativeenergy"}]}')}}]);
