@@ -40,7 +40,7 @@ Now, extend your gaze beyond the microscopic, casting it into the vast, boundles
 
 The First Order is the universe’s heartbeat, a rhythmic, pulsating energy that breathes life into existence. It is the primal force, the original spark that sets the stage for the grand narrative of the universe to unfold.
 
-![Description of image](https://ipfs.io/ipfs/QmT38JikgB4kFBzjSrqUMEfny2qdfDCohnKJi1Jq53FjTS)
+
 
 ### II. Creative Energy Recursive Networks (C.E.R.N.) are from the Second-order Creative Energy.
 In this realm, Creative Energy morphs, taking on a different, more complex guise. It becomes the driving force behind human creativity, innovation, and imagination. It is the invisible hand guiding the artist’s brush, the silent inspiration behind the poet’s words, the spark igniting the scientist’s mind. The human brain computes twenty quadrillions synaptic firings (or calculations) per hour with only 10 Watts of energy. 
@@ -48,6 +48,8 @@ In this realm, Creative Energy morphs, taking on a different, more complex guise
 Within the Second Order, Creative Energy transcends its physical form; it bridges the tangible and the intangible, the visible and the invisible, the known and the unknown. It allows us to harness the raw, primal energy of the First Order, molding and shaping it into something new, unique, and inherently human.
 
 In the realm of the Second Order, envision Creative Energy as the silent muse, whispering gently into the ears of artists and innovators alike. When a sculptor, with deliberate and thoughtful strokes, chisels away at a block of marble, the energy guiding their hands is not merely of the physical realm. It is an invisible, intangible force that guides, inspires, and manifests beauty and meaning from the inanimate. It’s the spark that transforms a blank canvas into a masterpiece, a simple melody into a symphony, a fleeting thought into a groundbreaking theory.
+
+![Biosphere2](https://ipfs.io/ipfs/QmT38JikgB4kFBzjSrqUMEfny2qdfDCohnKJi1Jq53FjTS)
 
 Consider the realm of scientific discovery. Within this domain, researchers tap into the wellspring of Second-Order Creative Energy, unveiling the secrets of the universe. It was this form of energy that illuminated the minds of individuals like Einstein and Curie, allowing them to peer beyond the surface, understanding the fundamental forces at play within the cosmos (Isaacson, 2007).
 
@@ -83,7 +85,7 @@ There is a reason why your mind followed the white rabbit that led you to this p
 
 In the following texts, we will dive deeper into the implications of our Creative Energy and draw a map to navigate it. We will explore Creative Energy coordination, reciprocation, and ownership and how we could achieve consensus on its directionality while preserving our individual and collective freedoms. We will examine the challenges and opportunities. We will see clearly in the seemingly confusing and chaotic technological explosion, the new rules of a game that is both exciting and meaningful. We will learn how to own, protect and coordinate our creative energy. We will start a new life.
 
-
+![Biosphere2](QmT38JikgB4kFBzjSrqUMEfny2qdfDCohnKJi1Jq53FjTS)
 
 
 
