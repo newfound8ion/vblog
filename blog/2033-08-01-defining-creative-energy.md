@@ -85,7 +85,7 @@ There is a reason why your mind followed the white rabbit that led you to this p
 
 In the following texts, we will dive deeper into the implications of our Creative Energy and draw a map to navigate it. We will explore Creative Energy coordination, reciprocation, and ownership and how we could achieve consensus on its directionality while preserving our individual and collective freedoms. We will examine the challenges and opportunities. We will see clearly in the seemingly confusing and chaotic technological explosion, the new rules of a game that is both exciting and meaningful. We will learn how to own, protect and coordinate our creative energy. We will start a new life.
 
-![Vectosphere](https://ipfs.io/ipfs/QmT38JikgB4kFBzjSrqUMEfny2qdfDCohnKJi1Jq53FjTS)
+![Vectosphere](https://ipfs.io/ipfs/QmbgyJYFWs8WEFw8LkroDadSXqrQdqEKw49ujoGt7VpiW8)
 
 
 
