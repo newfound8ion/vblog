@@ -40,6 +40,7 @@ Now, extend your gaze beyond the microscopic, casting it into the vast, boundles
 
 The First Order is the universe’s heartbeat, a rhythmic, pulsating energy that breathes life into existence. It is the primal force, the original spark that sets the stage for the grand narrative of the universe to unfold.
 
+![Description of image](https://ipfs.io/ipfs/QmT38JikgB4kFBzjSrqUMEfny2qdfDCohnKJi1Jq53FjTS)
 
 ### II. Creative Energy Recursive Networks (C.E.R.N.) are from the Second-order Creative Energy.
 In this realm, Creative Energy morphs, taking on a different, more complex guise. It becomes the driving force behind human creativity, innovation, and imagination. It is the invisible hand guiding the artist’s brush, the silent inspiration behind the poet’s words, the spark igniting the scientist’s mind. The human brain computes twenty quadrillions synaptic firings (or calculations) per hour with only 10 Watts of energy. 
