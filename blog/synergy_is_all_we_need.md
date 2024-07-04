@@ -1,6 +1,7 @@
-# Synergy is all we need
-
-The theme of the 2024 bull cycle is shaping at light speed and it has very little to do with tokens. What's happening is much bigger, both in economic value and societal impact. What's happening is the flippening to the New Internet, a new architecture that integrates the capabilities of trust-maximizing decentralized data with the power of probabilistic algorithms. 
+---
+title: Synergy is all we need
+---
+The theme of the 2024 bull cycle is shaping at light speed and it has very little to do with tokens. What's happening is much bigger, both in economic value and societal impact. What's happening is the flippening to the New Internet, a new architecture that integrates the capabilities of trust-maximizing decentralized data with the power of probabilistic algorithms.  
 
 By the time we eventually achieve web3, the progress in AI will have disrupted the Internet application landscape as we know it. Most of the Internet will be based on high bandwidth machine learning interactions. By integrating open-source principles with decentralized networks and AI, we are about to refactor the internet from a server-centric to an agent-centric architecture. 
 
