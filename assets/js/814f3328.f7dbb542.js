@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdeveloper_newcoin_org_2=self.webpackChunkdeveloper_newcoin_org_2||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Synergy Is All We Need","permalink":"/synergy-is-all-we-need"},{"title":"Defining Creative Energy","permalink":"/defining-creative-energy"}]}')}}]);
