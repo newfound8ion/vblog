@@ -39,8 +39,7 @@ The resulting fragmentation, with isolated valence graphs and proprietary algori
 Paradoxically, open-source researchers and contributors outnumber the corporate AI workers from the web2 paradigm. This growing community has the potential to drive rapid innovation and adaptive learning through collaborative intelligence, but open-source models operate in silos and once released, the models don't accrue knowledge from humans and other machines. What if we could leverage the power of trust in web3 and all agree on a data schema to exchange all the valence dynamics to unlock a synergy between a million open-source AI models, turning web3 into a secure and interoperable open AI pipeline?
 
 
-##  \
-A simple protocol for web3/AGI synergy
+##  A simple protocol for web3/AGI synergy
 
 The Immutable Points Standard Protocol (IPSP) is an open standard unlocking a unified system to capture, transmit, and leverage valence signals across the spectrum of human knowledge and machine intelligence. IPSP represents a paradigm shift in information theory, promising to catalyze unprecedented leaps in our collective problem-solving capacity and usher in an era of adaptive, distributed intelligence.
 
