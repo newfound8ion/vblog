@@ -29,9 +29,18 @@ Social organizations exhibit valence dynamics through reputation systems, voting
 
 In digital systems, valence takes on myriad forms. Search engines use backlinks, PageRank, click-through rates and dwell time as valence signals to rank results. Marketplaces leverage user reviews and purchase histories to refine product recommendations. Social media algorithms interpret likes, shares, and comments as valence indicators to curate content feeds.
 
-Delving deeper into AI systems, valence plays a crucial role at multiple computational layers. In neural networks, backpropagation algorithms use error signals - a form of valence - to adjust weights and improve predictions. Reinforcement learning agents rely on reward signals, another manifestation of valence, to optimize their policies in complex environments. OpenAI used valence in the form of human responses in their training sets (upvotes/downvote on Reddit) but also after the training process on the ChatGPT UI with RLHF leading to a jump in intelligence from GPT-3.5 to GPT-4 thanks to the relentless collection of sensory feedback from humans. At the cutting edge of AI research, techniques like few-shot learning and meta-learning aim to create systems that can rapidly adapt to new tasks with minimal valence signals. This mirrors the human ability to learn from sparse feedback, highlighting the universal nature of valence in intelligent systems.
+Delving deeper into AI systems, valence plays a crucial role at multiple computational layers. In neural networks, backpropagation algorithms use error signals - a form of valence - to adjust weights and improve predictions. Reinforcement learning agents rely on reward signals, another manifestation of valence, to optimize their policies in complex environments. OpenAI used valence in the form of human responses in their training sets (upvotes/downvote on Reddit) but also after the training process on the ChatGPT UI with RLHF leading to a jump in intelligence from GPT-3.5 to GPT-4 thanks to the relentless collection of sensory feedback from humans. 
+
+![RLHF](https://github.com/newfound8ion/vblog/assets/112469623/d0f07b8b-068e-4775-b101-daa73611cc37)
+
+![RLHF](https://github.com/newfound8ion/vblog/blob/main/static/img/rlhf.png)
+
+At the cutting edge of AI research, techniques like few-shot learning and meta-learning aim to create systems that can rapidly adapt to new tasks with minimal valence signals. This mirrors the human ability to learn from sparse feedback, highlighting the universal nature of valence in intelligent systems.
 
 The principle of requisite variety, a cornerstone of cybernetics, states that a system's internal complexity must match the complexity of its environment to achieve effective control. In the context of valence and intelligence, this principle underscores the need for diverse, interconnected valence signals to navigate our increasingly complex world. By recognizing valence as a universal currency of intelligence, we open the door to new paradigms of information exchange and collaborative learning. A standardized framework for valence could enable seamless integration of insights across diverse domains, from biomimicry in engineering to cross-cultural understanding in global diplomacy.
+
+![cybernetic](https://github.com/newfound8ion/vblog/assets/112469623/cc8c8bf4-9f7c-4109-8c75-760a800cc9a9)
+
 
 The challenge and opportunity before us lie in creating a unified system that can capture, transmit, and leverage valence signals across the full spectrum of human knowledge and machine intelligence. Such a system could catalyze unprecedented leaps in our collective problem-solving capacity, ushering in a new era of adaptive, distributed intelligence.
 
@@ -46,10 +55,12 @@ Paradoxically, open-source researchers and contributors outnumber the corporate 
 
 The Immutable Points Standard Protocol (IPSP) is an open standard unlocking a unified system to capture, transmit, and leverage valence signals across the spectrum of human knowledge and machine intelligence. IPSP represents a paradigm shift in information theory, promising to catalyze unprecedented leaps in our collective problem-solving capacity and usher in an era of adaptive, distributed intelligence.
 
+![AGI](https://github.com/newfound8ion/vblog/assets/112469623/76d4adf3-2815-4d6f-b756-800922f2d97e)
+
+
 IPSP transforms sensory valence signals from humans and machines into a universal, agent-centric weighted directed graph. This elegant solution enables the seamless transfer of valence signals - including parameters, values, and feedback - as fundamental units of intelligence exchange across diverse platforms and systems, optimizing information flow and reducing entropy.
 
 Key principles of IPSP:
-
 
 <table>
   <tr>
@@ -147,6 +158,9 @@ This architecture operates across multiple levels, optimizing information proces
 </table>
 
 
+![IPSP Levels](https://github.com/newfound8ion/vblog/assets/112469623/c24619ec-f073-4d8b-8aed-30b32b4e9894)
+
+
 By enabling the sharing of internal model states between open-source AI models, IPSP creates a mechanism for distributed, modular intelligence coordination. This shared value dynamics allows for more efficient information processing, reducing overall system entropy. Open-source collaborations enable diverse models to learn from each other's strengths, improving overall accuracy and robustness.
 
 The architecture implements multiple feedback loops that enable continuous adaptation and self-regulation. These loops operate at various levels, from individual agents to the entire network, fostering homeostasis and resilience. Leveraging cryptographic techniques and decentralized consensus, the system establishes verifiable trust mechanisms. These allow for secure and transparent information exchange, crucial for maintaining system integrity in a distributed environment.
@@ -189,3 +203,4 @@ The flippening to the New Internet isn't just coming—it's here, waiting for yo
 
 The future is not set. There is no fate but what we make for ourselves. Join us, and let's co-create a future that surpasses our wildest imaginations. The New Internet is calling. Will you answer?
 
+https://www.youtube.com/watch?v=Colq9d4GF3A
