@@ -33,7 +33,7 @@ Delving deeper into AI systems, valence plays a crucial role at multiple computa
 
 ![RLHF](https://github.com/newfound8ion/vblog/assets/112469623/d0f07b8b-068e-4775-b101-daa73611cc37)
 
-![RLHF](https://github.com/newfound8ion/vblog/blob/main/static/img/rlhf.png)
+![image](https://github.com/newfound8ion/vblog/assets/112469623/b3a29654-a9d9-4785-8994-333f9d2509e0)
 
 At the cutting edge of AI research, techniques like few-shot learning and meta-learning aim to create systems that can rapidly adapt to new tasks with minimal valence signals. This mirrors the human ability to learn from sparse feedback, highlighting the universal nature of valence in intelligent systems.
 
