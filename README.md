@@ -1,1 +1,1 @@
-A blog about networks, cosmology, cryptography and artificial intelligence.
+Synergy is all we need.
