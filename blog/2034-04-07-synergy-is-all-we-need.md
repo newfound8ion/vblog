@@ -1,7 +1,7 @@
 ---
 slug: valence-network-theory
 title: Valence Network Theory
---
+---
 
 ## The Invisible Hand Shaping Intelligence
 
