@@ -5,9 +5,13 @@ title: Defining Creative Energy
 
 I know why you’re here. You're here because you know something. 
 
-What you know you can't explain, but you feel it. You've felt it your entire life. You don't exactly know what it is, but it's there, like a splinter in your mind, driving you mad. You may think it was a random event, but there is a reason why it is this feeling that has brought you to this page.
+What you know you can't explain, but you feel it. You've felt it your entire life. You don't exactly know what it is, but it's there, like a splinter in your mind, driving you mad. It is this feeling that has brought you to this page.
 
-This page, seemingly harmless, is a gateway. It’s a path that once taken, will alter your perception, reshaping the way you sense, understand, and engage with the world.
+This page, is a gateway. It’s a path that once taken, will alter your perception, reshaping the way you sense, understand, and engage with the world.
+
+
+
+## Adapting to change
 
 In the silent passage of time, change has been the only constant, the only truth. With the advent of technology, we found a powerful ally, a tool that promised mastery over the forces of nature, over the forces of change. 
 
